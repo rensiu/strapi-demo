@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "Strapi-demo",
+      "name": "StrapiDemo",
       "script": "npm",
       "args": "start"
     }
