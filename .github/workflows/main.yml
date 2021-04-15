@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@master
     - run: npm install
     - run: npm run build
-    - run: tar -zcvf release.tgz .
+    - run: tar -zcvf release.tgz api build config exports extensions public .env.example .strapi-updater.json favicon.ico package.json package-lock.json pm2.config.json
 
     # 发布 Release
     - name: Create Release
