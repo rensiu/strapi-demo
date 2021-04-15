@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+`106.75.186.89:1337`
